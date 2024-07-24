@@ -1,0 +1,9 @@
+# By default, Prettier will ignore:
+#  **/.git
+#  **/.svn
+#  **/.hg
+#  **/node_modules
+
+pnpm-lock.yaml
+.sanity
+dist

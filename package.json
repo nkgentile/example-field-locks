@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy",
+    "typecheck": "tsc",
+    "lint": "eslint --fix --ignore-path .prettierignore .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@sanity/icons": "^3.3.1",
+    "@sanity/ui": "^2.8.8",
+    "@sanity/vision": "^3.52.2",
+    "groq": "^3.45.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.52.2",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^4.0.0",
+    "@types/react": "^18.3.3",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}

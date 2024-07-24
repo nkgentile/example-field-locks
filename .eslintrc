@@ -1,0 +1,10 @@
+{
+  "extends": ["@sanity/eslint-config-studio", "prettier"],
+  "plugins": ["simple-import-sort", "eslint-plugin-react-compiler"],
+  "rules": {
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn",
+    "react-compiler/react-compiler": "error",
+    "react/prop-types": "off"
+  }
+}
